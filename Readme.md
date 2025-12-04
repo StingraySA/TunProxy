@@ -2,13 +2,13 @@ Android HTTP traffic Proxy setting tool
 =============
 
 This tool is a proxy configuration tool that takes advantage of Android VPNService feature. 
-Only the communication from the specified application can be acquired.
+Only the communication from the specified application can be intercepted.
 
-## how to use
+## How To Use
 
 When you start the TunProxy application, the following screen will be launched.
 
-![Tun Proxy](images/TunProxy.png)
+<img src="images/TunProxy.png" width="20%" alt="Tun Proxy"/>
 
 * Proxy address (ipv4:port)
   * Specify the destination proxy server in the format **IPv4 address:port number**.
@@ -19,15 +19,11 @@ When you start the TunProxy application, the following screen will be launched.
 * [Stop] button
   * Stop the VPN service.
 
-## menu
-
-Application settings can be made from the menu icon (![Menu](images/Menu.png)) at the top of the screen.
-
-### Settings
+## Settings
 
 Configure VPN service settings.
 
-![Menu Settings](images/Menu-Settings.png) ⇒ ![Menu Settings](images/Menu-Settings-app.png)
+<img src="images/Menu-Settings.png" width="400" alt="Old Menu Settings"/>|<img src="images/Menu-Settings-app.png" width="400" alt="New Menu Settings"/>
 
 There are two modes, Disallowed Application and Allowed Application, but you can not specify them at the same time.
 Because of this you will have to choose whether you want to run in either mode.
@@ -46,7 +42,7 @@ The default is **Disallowed Application** selected.
 * Clear all selection
   * Clear all selections of Allowed / Disallowed application list.
 
-### Settings Search
+### Settings Search ( I broke this. Will be fixed soon. )
 
 ![Menu Settings](images/Menu-Settings-Search.png) / ![Menu Settings](images/Menu-Settings-Menu.png)
 
@@ -55,38 +51,7 @@ Only applications that contain the keyword specified in the application name or 
 
 The application list can be sorted from the menu icon  (![Menu](images/Menu.png)) at the top of the screen.
 
-### Settings Menu
-
-Changed the way the application list is displayed.
-
-* show system app
-  * show system application
-
-### sort by
-
-* app name
-  * Sort application list by application name
-
-* package name
-  * Sort application list by package name
-
-### order by
-
-* ascending
-  * Sorting in ascending order
-
-* descending
-  * Sorting in descending order
-
-### filter by
-
-* app name
-  * Search for the application name that contains the keyword you specified.
-
-* package name
-  * Search for the package name that contains the keyword you specified.
-
-### MITM (SSL decrypt)
+## MITM (SSL decrypt)
 
 TunProxy does not perform SSL decryption. TunProxy acts like a transparent proxy.
 To perform SSL decryption, set the IP of an SSL decryptable proxy such as Burp suite or Fiddler to the IP of TunProxy
@@ -112,24 +77,23 @@ Please refer to the following web site as a solution
 * Android 7 Nougat and certificate authorities
   * https://blog.jeroenhd.nl/article/android-7-nougat-and-certificate-authorities
 
-### About
-Display application version
-
 ## Operating environment
 
 * Android 5.0 (API Level 21) or later
 
-### ビルド
+## Build
  gradlew build
 
-## base application
+## Base Application
 
 Most of the code was created based on the following applications for creating applications.
 
 * forked from MengAndy/tun2http
   * https://github.com/MengAndy/tun2http/
 
-## Development environment
+## Development Environment
 
-* JRE(JDK) 1.8 or later(Open JDK)
-* AndroidStudio 2021.1.1 (https://developer.android.com/studio/index.html)
+* OpenJDK Runtime Environment Homebrew (build 25.0.1)
+* AndroidStudio 2025.1.4 (https://developer.android.com/studio/index.html)
+* NDK 29.1.14206865
+* CMake 4.1.2
