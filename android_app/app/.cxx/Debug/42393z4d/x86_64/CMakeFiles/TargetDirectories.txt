@@ -1,0 +1,3 @@
+/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64/CMakeFiles/tun2http.dir
+/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64/CMakeFiles/edit_cache.dir
+/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64/CMakeFiles/rebuild_cache.dir

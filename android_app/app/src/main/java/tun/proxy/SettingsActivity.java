@@ -491,47 +491,53 @@ public class SettingsActivity extends AppCompatActivity {
         @Override
         public boolean onOptionsItemSelected(MenuItem item) {
             int id = item.getItemId();
-            switch (id) {
-                case android.R.id.home:
-                    startActivity(new Intent(getActivity(), SettingsActivity.class));
-                    return true;
-                case R.id.menu_filter_app_system:
-                    item.setChecked(!item.isChecked());
-                    if (item.isChecked()) {
-                        this.filterAppType.add(FilterAppType.SYSTEM_APP);
-                    }
-                    else {
-                        this.filterAppType.remove(FilterAppType.SYSTEM_APP);
-                    }
-                    filter(null, appFilterBy, MyApplication.AppOrderBy.ASC, appSortBy, this.filterAppType);
-                    break;
-                case R.id.menu_sort_order_asc:
-                    item.setChecked(!item.isChecked());
-                    filter(null, appFilterBy, MyApplication.AppOrderBy.ASC, appSortBy, this.filterAppType);
-                    break;
-                case R.id.menu_sort_order_desc:
-                    item.setChecked(!item.isChecked());
-                    filter(null, appFilterBy, MyApplication.AppOrderBy.DESC, appSortBy, this.filterAppType);
-                    break;
-                case R.id.menu_filter_app_name:
-                    item.setChecked(!item.isChecked());
-                    this.appFilterBy = MyApplication.AppSortBy.APPNAME;
-                    //filter(null, MyApplication.AppSortBy.APPNAME, appOrderBy, appSortBy);
-                    break;
-                case R.id.menu_filter_pkg_name:
-                    item.setChecked(!item.isChecked());
-                    this.appFilterBy = MyApplication.AppSortBy.PKGNAME;
-                    //filter(null, MyApplication.AppSortBy.PKGNAME, appOrderBy, appSortBy);
-                    break;
-                case R.id.menu_sort_app_name:
-                    item.setChecked(!item.isChecked());
-                    filter(null, appFilterBy, appOrderBy, MyApplication.AppSortBy.APPNAME, this.filterAppType);
-                    break;
-                case R.id.menu_sort_pkg_name:
-                    item.setChecked(!item.isChecked());
-                    filter(null, appFilterBy, appOrderBy, MyApplication.AppSortBy.PKGNAME, this.filterAppType);
-                    break;
+
+            if (id == android.R.id.home) {
+                startActivity(new Intent(getActivity(), SettingsActivity.class));
+                return true;
             }
+            else if (id == R.id.menu_filter_app_system) {
+                item.setChecked(!item.isChecked());
+                if (item.isChecked()) {
+                    this.filterAppType.add(FilterAppType.SYSTEM_APP);
+                } else {
+                    this.filterAppType.remove(FilterAppType.SYSTEM_APP);
+                }
+                filter(null, appFilterBy, MyApplication.AppOrderBy.ASC, appSortBy, this.filterAppType);
+                return true;
+            }
+            else if (id == R.id.menu_sort_order_asc) {
+                item.setChecked(!item.isChecked());
+                filter(null, appFilterBy, MyApplication.AppOrderBy.ASC, appSortBy, this.filterAppType);
+                return true;
+            }
+            else if (id == R.id.menu_sort_order_desc) {
+                item.setChecked(!item.isChecked());
+                filter(null, appFilterBy, MyApplication.AppOrderBy.DESC, appSortBy, this.filterAppType);
+                return true;
+            }
+            else if (id == R.id.menu_filter_app_name) {
+                item.setChecked(!item.isChecked());
+                this.appFilterBy = MyApplication.AppSortBy.APPNAME;
+                return true;
+            }
+            else if (id == R.id.menu_filter_pkg_name) {
+                item.setChecked(!item.isChecked());
+                this.appFilterBy = MyApplication.AppSortBy.PKGNAME;
+                return true;
+            }
+            else if (id == R.id.menu_sort_app_name) {
+                item.setChecked(!item.isChecked());
+                filter(null, appFilterBy, appOrderBy, MyApplication.AppSortBy.APPNAME, this.filterAppType);
+                return true;
+            }
+            else if (id == R.id.menu_sort_pkg_name) {
+                item.setChecked(!item.isChecked());
+                filter(null, appFilterBy, appOrderBy, MyApplication.AppSortBy.PKGNAME, this.filterAppType);
+                return true;
+            }
+
+            // Any other menu item (or unknown) → let Android handle it (e.g. Up button)
             return super.onOptionsItemSelected(item);
         }
 

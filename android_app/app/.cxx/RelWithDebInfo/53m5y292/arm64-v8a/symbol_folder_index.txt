@@ -1,0 +1,1 @@
+/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/arm64-v8a

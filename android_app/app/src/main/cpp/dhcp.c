@@ -39,7 +39,7 @@ int check_dhcp(const struct arguments *args, const struct udp_session *u,
         struct dhcp_packet *response = calloc(500, 1);
 
         // Hack
-        inet_pton(AF_INET, "10.1.10.1", &u->saddr);
+        inet_pton(AF_INET, "10.1.10.1", (void*)&u->saddr);
 
         /*
         Discover:

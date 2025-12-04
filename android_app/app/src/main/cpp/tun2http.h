@@ -238,7 +238,11 @@ struct dns_header {
     uint16_t add_count; // number of resource entries
 } __packed;
 
-typedef struct dns_rr {
+typedef struct dns_rr          dns_rr_t;
+typedef struct dhcp_packet       dhcp_packet_t;
+typedef struct dhcp_option     dhcp_option_t;
+
+struct dns_rr {
     __be16 qname_ptr;
     __be16 qtype;
     __be16 qclass;
@@ -250,7 +254,7 @@ typedef struct dns_rr {
 
 #define DHCP_OPTION_MAGIC_NUMBER (0x63825363)
 
-typedef struct dhcp_packet {
+struct dhcp_packet {
     uint8_t opcode;
     uint8_t htype;
     uint8_t hlen;
@@ -268,7 +272,7 @@ typedef struct dhcp_packet {
     uint32_t option_format;
 } __packed;
 
-typedef struct dhcp_option {
+struct dhcp_option {
     uint8_t code;
     uint8_t length;
 } __packed;

@@ -1,0 +1,13 @@
+# ninja log v5
+1	53	1764771155678243162	CMakeFiles/tun2http.dir/tls.c.o	8bca1198c6e83f72
+0	60	1764771155686131423	CMakeFiles/tun2http.dir/dhcp.c.o	ac21dd07c30ca890
+0	69	1764771155695277158	CMakeFiles/tun2http.dir/dns.c.o	b01cc3c928d983f7
+0	70	1764771155696365338	CMakeFiles/tun2http.dir/http.c.o	9735d860ad6b7d69
+1	73	1764771155698880993	CMakeFiles/tun2http.dir/tun2http.c.o	7fdd43791d7a0bb2
+1	73	1764771155699923714	CMakeFiles/tun2http.dir/util.c.o	67d49fe8ae9a7792
+0	79	1764771155704893149	CMakeFiles/tun2http.dir/ip.c.o	d05cac3b77f354d1
+0	80	1764771155706253707	CMakeFiles/tun2http.dir/icmp.c.o	5a74eadf8c15a47c
+0	82	1764771155707952269	CMakeFiles/tun2http.dir/session.c.o	d456ef116662d175
+1	85	1764771155711212184	CMakeFiles/tun2http.dir/udp.c.o	804ca0df2ee38279
+0	130	1764771155755719553	CMakeFiles/tun2http.dir/tcp.c.o	34a2f34b00e94d69
+130	175	1764771155800663803	/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/armeabi-v7a/libtun2http.so	ee5c8313b1fb84df

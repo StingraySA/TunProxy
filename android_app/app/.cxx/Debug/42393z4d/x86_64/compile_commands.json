@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/dhcp.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/dhcp.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/dhcp.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/dns.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/dns.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/dns.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/http.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/http.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/http.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/icmp.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/icmp.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/icmp.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/ip.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/ip.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/ip.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/session.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/session.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/session.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/tcp.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/tcp.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/tcp.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/tls.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/tls.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/tls.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/tun2http.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/tun2http.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/tun2http.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/udp.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/udp.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/udp.c"
+},
+{
+  "directory": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/x86_64",
+  "command": "/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -o CMakeFiles/tun2http.dir/util.c.o -c /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/util.c",
+  "file": "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp/util.c"
+}
+]
