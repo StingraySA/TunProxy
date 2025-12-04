@@ -50,6 +50,10 @@ public class MainActivity extends AppCompatActivity implements
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        toolbar.setOnMenuItemClickListener(item -> {
+            return onOptionsItemSelected(item);
+        });
+
         start = findViewById(R.id.start);
         stop = findViewById(R.id.stop);
         hostEditText = findViewById(R.id.host);
@@ -94,35 +98,24 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        MenuItem item = menu.findItem(R.id.action_activity_settings);
-        item.setEnabled(start.isEnabled());
-        return true;
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-
         int id = item.getItemId();
 
         if (id == R.id.action_activity_settings) {
-            Intent intent = new Intent(this, SettingsActivity.class);
-            startActivity(intent);
+            startActivity(new Intent(this, SettingsActivity.class));
             return true;
         }
-        else if (id == R.id.action_show_about) {
+
+        if (id == R.id.action_show_about) {
             new AlertDialog.Builder(this)
                     .setTitle(getString(R.string.app_name) + " " + getVersionName())
                     .setMessage(R.string.app_name)
-                    .setPositiveButton(android.R.string.ok, null)  // nice to have an OK button
+                    .setPositiveButton(android.R.string.ok, null)
                     .show();
             return true;
         }
 
-        // Any other item (including the Up/Home button) → let Android handle it
+        // This line is CRITICAL — without it the overflow menu closes immediately
         return super.onOptionsItemSelected(item);
     }
 
