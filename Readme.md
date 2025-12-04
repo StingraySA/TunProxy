@@ -8,7 +8,7 @@ Only the communication from the specified application can be intercepted.
 
 When you start the TunProxy application, the following screen will be launched.
 
-<img src="images/TunProxy.png" width="20%" alt="Tun Proxy"/>
+<img src="images/TunProxy.png" width="400" alt="Tun Proxy"/>
 
 * Proxy address (ipv4:port)
   * Specify the destination proxy server in the format **IPv4 address:port number**.
