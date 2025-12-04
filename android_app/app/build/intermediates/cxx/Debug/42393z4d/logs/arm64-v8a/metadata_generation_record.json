@@ -1,0 +1,158 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- a hard configure file changed, will remove stale configuration folder",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "  - /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a/metadata_generation_command.txt (LAST_MODIFIED_CHANGED)",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a\u0027",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a\u0027",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /Users/williamvermaak/Library/Android/sdk/cmake/3.22.1/bin/cmake \\\n  -H/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d21 \\\n  -DANDROID_PLATFORM\u003dandroid-21 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865 \\\n  -DCMAKE_ANDROID_NDK\u003d/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Users/williamvermaak/Library/Android/sdk/cmake/3.22.1/bin/ninja \\\n  \"-DCMAKE_CXX_FLAGS\u003d-std\u003dc++17 -fvisibility\u003dhidden -frtti -fexceptions\" \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a \\\n  -GNinja \\\n  -DCMAKE_VERBOSE_MAKEFILE\u003dON \\\n  -DANDROID_FUNCTION_LEVEL_LINKING\u003dON\n",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/Users/williamvermaak/Library/Android/sdk/cmake/3.22.1/bin/cmake \\\n  -H/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d21 \\\n  -DANDROID_PLATFORM\u003dandroid-21 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865 \\\n  -DCMAKE_ANDROID_NDK\u003d/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/Users/williamvermaak/Library/Android/sdk/cmake/3.22.1/bin/ninja \\\n  \"-DCMAKE_CXX_FLAGS\u003d-std\u003dc++17 -fvisibility\u003dhidden -frtti -fexceptions\" \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a \\\n  -GNinja \\\n  -DCMAKE_VERBOSE_MAKEFILE\u003dON \\\n  -DANDROID_FUNCTION_LEVEL_LINKING\u003dON\n",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/arm64-v8a/compile_commands.json.bin normally",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]
