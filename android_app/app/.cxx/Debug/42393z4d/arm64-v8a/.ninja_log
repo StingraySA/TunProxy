@@ -12,3 +12,16 @@
 1	148	1764848283166404135	CMakeFiles/tun2http.dir/tcp.c.o	891b3fb21716b0fe
 148	200	1764848283217425240	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/arm64-v8a/libtun2http.so	51a341aa8e95367e
 0	7	0	clean	dbd6fcdd859981e5
+2	241	1764849160352464073	CMakeFiles/tun2http.dir/tls.c.o	c69131547aa6a384
+1	246	1764849160360233374	CMakeFiles/tun2http.dir/dhcp.c.o	b41591414f9e765a
+1	255	1764849160368459421	CMakeFiles/tun2http.dir/dns.c.o	7834876ea8ff9149
+1	257	1764849160369292705	CMakeFiles/tun2http.dir/http.c.o	e63633e823fec8f0
+5	257	1764849160368410130	CMakeFiles/tun2http.dir/util.c.o	31092c0ab7b5a7f2
+1	257	1764849160370894732	CMakeFiles/tun2http.dir/session.c.o	23e1c49e670b7a7
+1	258	1764849160372995420	CMakeFiles/tun2http.dir/icmp.c.o	8cddf5f6c26a167c
+1	259	1764849160373553998	CMakeFiles/tun2http.dir/ip.c.o	47748bd8e9f06c40
+3	259	1764849160372565091	CMakeFiles/tun2http.dir/tun2http.c.o	b7bd355c179dde5c
+4	261	1764849160376226931	CMakeFiles/tun2http.dir/udp.c.o	4d5d8096d4f147bc
+2	278	1764849160393474018	CMakeFiles/tun2http.dir/tcp.c.o	891b3fb21716b0fe
+278	395	1764849160509246090	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/arm64-v8a/libtun2http.so	51a341aa8e95367e
+0	7	0	clean	dbd6fcdd859981e5

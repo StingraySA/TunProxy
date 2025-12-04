@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    android:padding="24dp">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
@@ -26,18 +25,20 @@
             android:padding="32dp"
             android:gravity="center">
 
+            <!-- App Name -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/app_name"
-                android:textSize="24sp"
+                android:textSize="28sp"
                 android:textStyle="bold"
-                android:layout_marginBottom="32dp"/>
+                android:layout_marginBottom="40dp"/>
 
+            <!-- Host Input -->
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
+                android:layout_marginBottom="32dp"
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
                 <com.google.android.material.textfield.TextInputEditText
@@ -48,24 +49,51 @@
                     android:inputType="textUri"/>
             </com.google.android.material.textfield.TextInputLayout>
 
+            <!-- Start Button (full width) -->
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/start"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
                 android:text="@string/start"
                 app:icon="@drawable/ic_play_arrow"
+                app:iconGravity="textStart"
+                app:iconPadding="12dp"
                 style="@style/Widget.MaterialComponents.Button"
-                android:layout_marginBottom="12dp"/>
+                android:layout_marginBottom="16dp"/>
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/stop"
+            <!-- Stop Button + Settings Gear (in a row) -->
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:text="@string/stop"
-                app:icon="@drawable/ic_stop"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="8dp">
+
+                <!-- Stop Button (takes available space) -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/stop"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:text="@string/stop"
+                    app:icon="@drawable/ic_stop"
+                    app:iconGravity="textStart"
+                    app:iconPadding="12dp"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_marginEnd="12dp"/>
+
+                <!-- Settings Gear Button -->
+                <ImageButton
+                    android:id="@+id/settings_button"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:src="@drawable/ic_settings_24dp"
+                    android:contentDescription="@string/title_activity_settings"
+                    app:tint="?attr/colorPrimary" />
+
+            </LinearLayout>
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

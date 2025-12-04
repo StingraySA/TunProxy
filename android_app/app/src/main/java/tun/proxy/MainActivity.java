@@ -27,6 +27,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 import tun.proxy.service.Tun2HttpVpnService;
 import tun.utils.IPUtil;
@@ -47,16 +48,15 @@ public class MainActivity extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
-        toolbar.setOnMenuItemClickListener(item -> {
-            return onOptionsItemSelected(item);
-        });
 
         start = findViewById(R.id.start);
         stop = findViewById(R.id.stop);
         hostEditText = findViewById(R.id.host);
+
+        ImageButton settingsButton = findViewById(R.id.settings_button);
+        settingsButton.setOnClickListener(v ->
+                startActivity(new Intent(this, SettingsActivity.class))
+        );
 
         start.setOnClickListener(new View.OnClickListener() {
             @Override
