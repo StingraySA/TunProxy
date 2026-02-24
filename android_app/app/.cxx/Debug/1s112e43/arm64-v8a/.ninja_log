@@ -1,0 +1,13 @@
+# ninja log v5
+3	372	1771920524888040158	CMakeFiles/tun2http.dir/dns.c.o	7834876ea8ff9149
+16	377	1771920524890502662	CMakeFiles/tun2http.dir/tun2http.c.o	b7bd355c179dde5c
+14	378	1771920524878469604	CMakeFiles/tun2http.dir/tls.c.o	c69131547aa6a384
+1	378	1771920524885105946	CMakeFiles/tun2http.dir/dhcp.c.o	b41591414f9e765a
+5	381	1771920524896105211	CMakeFiles/tun2http.dir/http.c.o	e63633e823fec8f0
+7	381	1771920524897621629	CMakeFiles/tun2http.dir/icmp.c.o	8cddf5f6c26a167c
+8	387	1771920524903497471	CMakeFiles/tun2http.dir/ip.c.o	47748bd8e9f06c40
+20	400	1771920524905122515	CMakeFiles/tun2http.dir/util.c.o	31092c0ab7b5a7f2
+18	408	1771920524919900034	CMakeFiles/tun2http.dir/udp.c.o	4d5d8096d4f147bc
+12	410	1771920524917150697	CMakeFiles/tun2http.dir/tcp.c.o	891b3fb21716b0fe
+11	417	1771920524933747428	CMakeFiles/tun2http.dir/session.c.o	23e1c49e670b7a7
+418	554	1771920525068595317	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/1s112e43/obj/arm64-v8a/libtun2http.so	53d2f929d5c4f2a2

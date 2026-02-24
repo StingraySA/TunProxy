@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_vpn_connection_name">
+        <item>Disallowed Application</item>
+        <item>Allowed Application</item>
+    </string-array>
+    <string-array name="pref_vpn_connection_value">
+        <item>DISALLOW</item>
+        <item>ALLOW</item>
+    </string-array>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="ic_launcher_background">#F5F5F5</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="app_name">TunProxy</string>
+    <string name="enter_host">Enter valid ip v4 address</string>
+    <string name="host_hint">Proxy address (ipv4:port)</string>
+    <string name="loading">Please wait</string>
+    <string name="msg_start_failed">Start failed</string>
+    <string name="notify_msg">Proxy is running</string>
+    <string name="notify_title">Proxy is running</string>
+    <string name="pref_dialog_clear_all_application_msg">Clear all selections of Allowed / Disallowed application list</string>
+    <string name="pref_header_allowed_application_list">Allowed application list</string>
+    <string name="pref_header_disallowed_application_list">Disallowed application list</string>
+    <string name="pref_vpn_connection_mode">Allowed / Disallowed Application</string>
+    <string name="search">Search</string>
+    <string name="start">Start</string>
+    <string name="status_disconnected">Disconnected!</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_show_about">About</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+    <style name="AppTheme.Dark" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light"/>
+    <style name="OverflowMenuStyle" parent="Widget.MaterialComponents.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">?attr/actionBarSize</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+/Users/williamvermaak/Library/Android/sdk/cmake/3.22.1/bin/ninja \
+  -v \
+  -C \
+  /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/x86_64 \
+  tun2http

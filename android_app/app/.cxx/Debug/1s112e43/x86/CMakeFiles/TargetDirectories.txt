@@ -1,0 +1,3 @@
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/1s112e43/x86/CMakeFiles/tun2http.dir
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/1s112e43/x86/CMakeFiles/edit_cache.dir
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/1s112e43/x86/CMakeFiles/rebuild_cache.dir

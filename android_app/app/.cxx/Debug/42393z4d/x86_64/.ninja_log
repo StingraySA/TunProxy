@@ -1,13 +1,13 @@
 # ninja log v5
-2	125	1764770579593737218	CMakeFiles/tun2http.dir/tls.c.o	757e4d0a35d8d1d5
-0	185	1764770579649328781	CMakeFiles/tun2http.dir/dhcp.c.o	29a76ce177c71575
-1	191	1764770579662731780	CMakeFiles/tun2http.dir/ip.c.o	baa710be2f94b8c2
-1	193	1764770579664003921	CMakeFiles/tun2http.dir/dns.c.o	7ae933225a2c4c64
-1	195	1764770579662470319	CMakeFiles/tun2http.dir/http.c.o	bc2d9a000370698d
-2	196	1764770579666484577	CMakeFiles/tun2http.dir/session.c.o	43d9bc642ade7d60
-1	212	1764770579685194975	CMakeFiles/tun2http.dir/icmp.c.o	10bd5dfd020d49b8
-5	215	1764770579687106332	CMakeFiles/tun2http.dir/util.c.o	d6e1294b20465155
-3	224	1764770579699421609	CMakeFiles/tun2http.dir/tun2http.c.o	5e37debd922a6fe8
-5	226	1764770579701255757	CMakeFiles/tun2http.dir/udp.c.o	689c929aef70eae2
-2	239	1764770579713852496	CMakeFiles/tun2http.dir/tcp.c.o	1bcd61a15690ac70
-239	382	1764770579848198449	/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/Debug/42393z4d/obj/x86_64/libtun2http.so	f17667c0fc40b792
+1	47	1764850369706322819	CMakeFiles/tun2http.dir/tls.c.o	38b451f4ceb38b38
+0	61	1764850369721321428	CMakeFiles/tun2http.dir/dhcp.c.o	99afa125b8ecaccd
+1	63	1764850369723232218	CMakeFiles/tun2http.dir/http.c.o	e7e202c74d27f6d5
+2	64	1764850369723767592	CMakeFiles/tun2http.dir/util.c.o	d68e8b26056ad984
+1	64	1764850369724043092	CMakeFiles/tun2http.dir/dns.c.o	e2a5a32aff06a1b2
+1	64	1764850369724665842	CMakeFiles/tun2http.dir/ip.c.o	b5b9b1d686636443
+1	65	1764850369724715591	CMakeFiles/tun2http.dir/session.c.o	f944da9de8f8c9c2
+1	66	1764850369726574256	CMakeFiles/tun2http.dir/tun2http.c.o	5d710df60be0e9b2
+1	67	1764850369727559005	CMakeFiles/tun2http.dir/icmp.c.o	274f22a5e031cabc
+2	68	1764850369728539462	CMakeFiles/tun2http.dir/udp.c.o	b675ca4f1abe16e4
+1	77	1764850369737358245	CMakeFiles/tun2http.dir/tcp.c.o	4b2471732088d3db
+77	125	1764850369784855278	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/x86_64/libtun2http.so	10410972a79f563a

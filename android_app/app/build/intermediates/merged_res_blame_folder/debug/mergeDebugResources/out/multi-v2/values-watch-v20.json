@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "tun.proxy.app-mergeDebugResources-45:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/williamvermaak/.gradle/caches/9.1.0/transforms/c2b552c96eb6d0cf82ec3821f156f048/transformed/appcompat-1.7.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

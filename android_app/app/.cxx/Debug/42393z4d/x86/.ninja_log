@@ -1,8 +1,13 @@
 # ninja log v5
-0	5	0	clean	dbd6fcdd859981e5
-0	5	0	clean	dbd6fcdd859981e5
-0	5	0	clean	dbd6fcdd859981e5
-0	5	0	clean	dbd6fcdd859981e5
-0	5	0	clean	dbd6fcdd859981e5
-0	5	0	clean	dbd6fcdd859981e5
-0	5	0	clean	dbd6fcdd859981e5
+2	53	1764850369364648889	CMakeFiles/tun2http.dir/tls.c.o	c30fb1af614376e9
+0	64	1764850369375409419	CMakeFiles/tun2http.dir/dhcp.c.o	ebf1eca189129d95
+0	65	1764850369376676043	CMakeFiles/tun2http.dir/dns.c.o	c82fd25c6f5810c8
+0	65	1764850369375342377	CMakeFiles/tun2http.dir/http.c.o	25cebf126dbf1ea
+1	65	1764850369376339085	CMakeFiles/tun2http.dir/session.c.o	d15b1bb3322699e4
+3	72	1764850369384816701	CMakeFiles/tun2http.dir/tun2http.c.o	bf31ea75d50f6878
+1	72	1764850369385268659	CMakeFiles/tun2http.dir/icmp.c.o	8bb0214052ab8f1a
+4	76	1764850369389634154	CMakeFiles/tun2http.dir/util.c.o	4f7da083f5e8c4a8
+1	77	1764850369390982236	CMakeFiles/tun2http.dir/tcp.c.o	8ad6d94fe96a3491
+1	79	1764850369392278526	CMakeFiles/tun2http.dir/ip.c.o	234405ea0ebfe2db
+3	81	1764850369394565440	CMakeFiles/tun2http.dir/udp.c.o	7e3cc3be5d096f31
+81	128	1764850369440419559	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/x86/libtun2http.so	36aa3bff63534cb6

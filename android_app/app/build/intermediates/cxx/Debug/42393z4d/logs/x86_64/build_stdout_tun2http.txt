@@ -1,0 +1,230 @@
+ninja: Entering directory `/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/x86_64'
+[1/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/tls.c.o -MF CMakeFiles/tun2http.dir/tls.c.o.d -o CMakeFiles/tun2http.dir/tls.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tls.c
+[2/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/dhcp.c.o -MF CMakeFiles/tun2http.dir/dhcp.c.o.d -o CMakeFiles/tun2http.dir/dhcp.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dhcp.c
+[3/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/http.c.o -MF CMakeFiles/tun2http.dir/http.c.o.d -o CMakeFiles/tun2http.dir/http.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/http.c
+[4/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/util.c.o -MF CMakeFiles/tun2http.dir/util.c.o.d -o CMakeFiles/tun2http.dir/util.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/util.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/util.c:46:22: warning: unused parameter 'prio' [-Wunused-parameter]
+   46 | void log_android(int prio, const char *fmt, ...) {
+      |                      ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/util.c:46:40: warning: unused parameter 'fmt' [-Wunused-parameter]
+   46 | void log_android(int prio, const char *fmt, ...) {
+      |                                        ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/util.c:59:23: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+   59 |     for (int i = 0; i < len; i += 2)
+      |                     ~ ^ ~~~
+3 warnings generated.
+[5/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/dns.c.o -MF CMakeFiles/tun2http.dir/dns.c.o.d -o CMakeFiles/tun2http.dir/dns.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:91:17: warning: unused variable 'aoff' [-Wunused-variable]
+   91 |         int32_t aoff = off;
+      |                 ^~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:45:49: warning: unused parameter 'args' [-Wunused-parameter]
+   45 | void parse_dns_response(const struct arguments *args, const struct udp_session *u,
+      |                                                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:45:81: warning: unused parameter 'u' [-Wunused-parameter]
+   45 | void parse_dns_response(const struct arguments *args, const struct udp_session *u,
+      |                                                                                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:72:36: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+   72 |             if (off > 0 && off + 4 <= *datalen) {
+      |                            ~~~~~~~ ^  ~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:94:37: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+   94 |             if (off > 0 && off + 10 <= *datalen) {
+      |                            ~~~~~~~~ ^  ~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:101:36: warning: comparison of integers of different signs: 'int' and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  101 |                 if (off + rdlength <= *datalen) {
+      |                     ~~~~~~~~~~~~~~ ^  ~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:138:43: warning: unused parameter 'args' [-Wunused-parameter]
+  138 | int get_dns_query(const struct arguments *args, const struct udp_session *u,
+      |                                           ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:138:75: warning: unused parameter 'u' [-Wunused-parameter]
+  138 | int get_dns_query(const struct arguments *args, const struct udp_session *u,
+      |                                                                           ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:156:32: warning: comparison of integers of different signs: 'int' and 'const size_t' (aka 'const unsigned long') [-Wsign-compare]
+  156 |         if (off > 0 && off + 4 == datalen) {
+      |                        ~~~~~~~ ^  ~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:168:42: warning: unused parameter 'args' [-Wunused-parameter]
+  168 | int check_domain(const struct arguments *args, const struct udp_session *u,
+      |                                          ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:168:74: warning: unused parameter 'u' [-Wunused-parameter]
+  168 | int check_domain(const struct arguments *args, const struct udp_session *u,
+      |                                                                          ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:169:33: warning: unused parameter 'data' [-Wunused-parameter]
+  169 |                  const uint8_t *data, const size_t datalen,
+      |                                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:169:52: warning: unused parameter 'datalen' [-Wunused-parameter]
+  169 |                  const uint8_t *data, const size_t datalen,
+      |                                                    ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:170:27: warning: unused parameter 'qclass' [-Wunused-parameter]
+  170 |                  uint16_t qclass, uint16_t qtype, const char *name) {
+      |                           ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:170:44: warning: unused parameter 'qtype' [-Wunused-parameter]
+  170 |                  uint16_t qclass, uint16_t qtype, const char *name) {
+      |                                            ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/dns.c:170:63: warning: unused parameter 'name' [-Wunused-parameter]
+  170 |                  uint16_t qclass, uint16_t qtype, const char *name) {
+      |                                                               ^
+16 warnings generated.
+[6/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/ip.c.o -MF CMakeFiles/tun2http.dir/ip.c.o.d -o CMakeFiles/tun2http.dir/ip.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/ip.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/ip.c:298:30: warning: unused parameter 'saddr' [-Wunused-parameter]
+  298 |                  const void *saddr, const uint16_t sport,
+      |                              ^
+1 warning generated.
+[7/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/session.c.o -MF CMakeFiles/tun2http.dir/session.c.o.d -o CMakeFiles/tun2http.dir/session.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/session.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/session.c:11:35: warning: unused parameter 'args' [-Wunused-parameter]
+   11 | void init(const struct arguments *args) {
+      |                                   ^
+1 warning generated.
+[8/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/tun2http.c.o -MF CMakeFiles/tun2http.dir/tun2http.c.o.d -o CMakeFiles/tun2http.dir/tun2http.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:15:35: warning: unused parameter 'reserved' [-Wunused-parameter]
+   15 | jint JNI_OnLoad(JavaVM *vm, void *reserved) {
+      |                                   ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:40:37: warning: unused parameter 'reserved' [-Wunused-parameter]
+   40 | void JNI_OnUnload(JavaVM *vm, void *reserved) {
+      |                                     ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:121:17: warning: unused parameter 'env' [-Wunused-parameter]
+  121 |         JNIEnv *env, jobject instance, jint tun) {
+      |                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:121:30: warning: unused parameter 'instance' [-Wunused-parameter]
+  121 |         JNIEnv *env, jobject instance, jint tun) {
+      |                              ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:143:65: warning: unused parameter 'env' [-Wunused-parameter]
+  143 | Java_tun_proxy_service_Tun2HttpVpnService_jni_1get_1mtu(JNIEnv *env, jobject instance) {
+      |                                                                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:143:78: warning: unused parameter 'instance' [-Wunused-parameter]
+  143 | Java_tun_proxy_service_Tun2HttpVpnService_jni_1get_1mtu(JNIEnv *env, jobject instance) {
+      |                                                                              ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:149:61: warning: unused parameter 'env' [-Wunused-parameter]
+  149 | Java_tun_proxy_service_Tun2HttpVpnService_jni_1done(JNIEnv *env, jobject instance) {
+      |                                                             ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:149:74: warning: unused parameter 'instance' [-Wunused-parameter]
+  149 | Java_tun_proxy_service_Tun2HttpVpnService_jni_1done(JNIEnv *env, jobject instance) {
+      |                                                                          ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.c:165:54: warning: unused parameter 'type' [-Wunused-parameter]
+  165 | Java_tun_utils_Util_jni_1getprop(JNIEnv *env, jclass type, jstring name_) {
+      |                                                      ^
+9 warnings generated.
+[9/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/icmp.c.o -MF CMakeFiles/tun2http.dir/icmp.c.o.d -o CMakeFiles/tun2http.dir/icmp.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:7:49: warning: unused parameter 'u' [-Wunused-parameter]
+    7 | int get_icmp_timeout(const struct icmp_session *u, int sessions, int maxsessions) {
+      |                                                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:16:48: warning: unused parameter 'args' [-Wunused-parameter]
+   16 | int check_icmp_session(const struct arguments *args, struct ng_session *s,
+      |                                                ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:258:56: warning: pointer type mismatch ('struct sockaddr_in *' and 'struct sockaddr_in6 *') [-Wpointer-type-mismatch]
+  258 |                (const struct sockaddr *) (version == 4 ? &server4 : &server6),
+      |                                                        ^ ~~~~~~~~   ~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:166:50: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  166 |                              cur->icmp.daddr.ip4 == ip4->daddr
+      |                              ~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:165:50: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  165 |              (version == 4 ? cur->icmp.saddr.ip4 == ip4->saddr &&
+      |                              ~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:259:80: warning: comparison of integers of different signs: 'ssize_t' (aka 'long') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  257 |     if (sendto(cur->socket, icmp, (socklen_t) icmplen, MSG_NOSIGNAL,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  258 |                (const struct sockaddr *) (version == 4 ? &server4 : &server6),
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  259 |                (socklen_t) (version == 4 ? sizeof(server4) : sizeof(server6))) != icmplen) {
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:335:33: warning: pointer type mismatch ('const __be32 *' (aka 'const unsigned int *') and 'const struct in6_addr *') [-Wpointer-type-mismatch]
+  335 |               cur->version == 4 ? &cur->saddr.ip4 : &cur->saddr.ip6, source, sizeof(source));
+      |                                 ^ ~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:337:33: warning: pointer type mismatch ('const __be32 *' (aka 'const unsigned int *') and 'const struct in6_addr *') [-Wpointer-type-mismatch]
+  337 |               cur->version == 4 ? &cur->daddr.ip4 : &cur->daddr.ip6, dest, sizeof(dest));
+      |                                 ^ ~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/icmp.c:349:13: warning: comparison of integers of different signs: 'ssize_t' (aka 'long') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  349 |     if (res != len) {
+      |         ~~~ ^  ~~~
+9 warnings generated.
+[10/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/udp.c.o -MF CMakeFiles/tun2http.dir/udp.c.o.d -o CMakeFiles/tun2http.dir/udp.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:16:47: warning: unused parameter 'args' [-Wunused-parameter]
+   16 | int check_udp_session(const struct arguments *args, struct ng_session *s,
+      |                                               ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:148:49: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  148 |                              cur->udp.daddr.ip4 == ip4->daddr
+      |                              ~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:147:49: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  147 |              (version == 4 ? cur->udp.saddr.ip4 == ip4->saddr &&
+      |                              ~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:156:40: warning: unused parameter 'args' [-Wunused-parameter]
+  156 | void block_udp(const struct arguments *args,
+      |                                        ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:157:43: warning: unused parameter 'length' [-Wunused-parameter]
+  157 |                const uint8_t *pkt, size_t length,
+      |                                           ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:355:57: warning: pointer type mismatch ('struct sockaddr_in *' and 'struct sockaddr_in6 *') [-Wpointer-type-mismatch]
+  355 |                (const struct sockaddr *) (rversion == 4 ? &addr4 : &addr6),
+      |                                                         ^ ~~~~~~   ~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:224:49: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  224 |                              cur->udp.daddr.ip4 == ip4->daddr
+      |                              ~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:223:49: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  223 |              (version == 4 ? cur->udp.saddr.ip4 == ip4->saddr &&
+      |                              ~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:356:77: warning: comparison of integers of different signs: 'ssize_t' (aka 'long') and 'const size_t' (aka 'const unsigned long') [-Wsign-compare]
+  354 |     if (sendto(cur->socket, data, (socklen_t) datalen, MSG_NOSIGNAL,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  355 |                (const struct sockaddr *) (rversion == 4 ? &addr4 : &addr6),
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  356 |                (socklen_t) (rversion == 4 ? sizeof(addr4) : sizeof(addr6))) != datalen) {
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:509:33: warning: pointer type mismatch ('const __be32 *' (aka 'const unsigned int *') and 'const struct in6_addr *') [-Wpointer-type-mismatch]
+  509 |               cur->version == 4 ? &cur->saddr.ip4 : &cur->saddr.ip6, source, sizeof(source));
+      |                                 ^ ~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:511:33: warning: pointer type mismatch ('const __be32 *' (aka 'const unsigned int *') and 'const struct in6_addr *') [-Wpointer-type-mismatch]
+  511 |               cur->version == 4 ? &cur->daddr.ip4 : &cur->daddr.ip6, dest, sizeof(dest));
+      |                                 ^ ~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/udp.c:522:13: warning: comparison of integers of different signs: 'ssize_t' (aka 'long') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  522 |     if (res != len) {
+      |         ~~~ ^  ~~~
+12 warnings generated.
+[11/12] /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dtun2http_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -Wall -Wextra -fvisibility=hidden -MD -MT CMakeFiles/tun2http.dir/tcp.c.o -MF CMakeFiles/tun2http.dir/tcp.c.o.d -o CMakeFiles/tun2http.dir/tcp.c.o -c /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:160:66: warning: passing 'int *' to parameter of type 'socklen_t * _Nonnull' (aka 'unsigned int *') converts between pointers to integer types with different sign [-Wpointer-sign]
+  160 |     if (getsockopt(cur->socket, SOL_SOCKET, SO_SNDBUF, &sendbuf, &sendbufsize) < 0)
+      |                                                                  ^~~~~~~~~~~~
+/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/sys/socket.h:286:98: note: passing argument to parameter '__value_length' here
+  286 | int getsockopt(int __fd, int __level, int __option, void* _Nullable __value, socklen_t* _Nonnull __value_length);
+      |                                                                                                  ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:248:53: warning: incompatible pointer types passing 'struct icmp *' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') [-Wincompatible-pointer-types]
+  248 |                 icmp.icmp_cksum = ~calc_checksum(0, &icmp, 4);
+      |                                                     ^~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.h:438:55: note: passing argument to parameter 'buffer' here
+  438 | uint16_t calc_checksum(uint16_t start, const uint8_t *buffer, size_t length);
+      |                                                       ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:261:42: warning: incompatible pointer types passing 'struct icmp *' to parameter of type 'uint8_t *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+  261 |                 write_icmp(args, &sicmp, &icmp, 8);
+      |                                          ^~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tun2http.h:415:29: note: passing argument to parameter 'data' here
+  415 |                    uint8_t *data, size_t datalen);
+      |                             ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:198:33: warning: unused parameter 'epoll_fd' [-Wunused-parameter]
+  198 |                       const int epoll_fd) {
+      |                                 ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:325:30: warning: comparison of integers of different signs: 'ssize_t' (aka 'long') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+  325 |                     if (sent > len) {
+      |                         ~~~~ ^ ~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:457:88: warning: unused parameter 'needed' [-Wunused-parameter]
+  457 | static void lookup_hostname(struct sockaddr_in *addr, char *hostname, int hostlen, int needed) {
+      |                                                                                        ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:535:49: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  535 |                              cur->tcp.daddr.ip4 == ip4->daddr
+      |                              ~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:534:49: warning: comparison of integers of different signs: '__be32' (aka 'unsigned int') and 'const int32_t' (aka 'const int') [-Wsign-compare]
+  534 |              (version == 4 ? cur->tcp.saddr.ip4 == ip4->saddr &&
+      |                              ~~~~~~~~~~~~~~~~~~ ^  ~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:910:40: warning: unused parameter 'args' [-Wunused-parameter]
+  910 | void queue_tcp(const struct arguments *args,
+      |                                        ^
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:1030:63: warning: pointer type mismatch ('struct sockaddr_in *' and 'struct sockaddr_in6 *') [-Wpointer-type-mismatch]
+ 1030 |                       (const struct sockaddr *) (version == 4 ? &addr4 : &addr6),
+      |                                                               ^ ~~~~~~   ~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:1197:33: warning: pointer type mismatch ('const __be32 *' (aka 'const unsigned int *') and 'const struct in6_addr *') [-Wpointer-type-mismatch]
+ 1197 |               cur->version == 4 ? &cur->saddr.ip4 : &cur->saddr.ip6, source, sizeof(source));
+      |                                 ^ ~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:1199:33: warning: pointer type mismatch ('const __be32 *' (aka 'const unsigned int *') and 'const struct in6_addr *') [-Wpointer-type-mismatch]
+ 1199 |               cur->version == 4 ? &cur->daddr.ip4 : &cur->daddr.ip6, dest, sizeof(dest));
+      |                                 ^ ~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~
+/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp/tcp.c:1217:13: warning: comparison of integers of different signs: 'ssize_t' (aka 'long') and 'size_t' (aka 'unsigned long') [-Wsign-compare]
+ 1217 |     if (res != len) {
+      |         ~~~ ^  ~~~
+13 warnings generated.
+[12/12] : && /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=x86_64-none-linux-android21 --sysroot=/Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,libtun2http.so -o /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/x86_64/libtun2http.so CMakeFiles/tun2http.dir/dhcp.c.o CMakeFiles/tun2http.dir/dns.c.o CMakeFiles/tun2http.dir/http.c.o CMakeFiles/tun2http.dir/icmp.c.o CMakeFiles/tun2http.dir/ip.c.o CMakeFiles/tun2http.dir/session.c.o CMakeFiles/tun2http.dir/tcp.c.o CMakeFiles/tun2http.dir/tls.c.o CMakeFiles/tun2http.dir/tun2http.c.o CMakeFiles/tun2http.dir/udp.c.o CMakeFiles/tun2http.dir/util.c.o  /Users/williamvermaak/Library/Android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/liblog.so  -latomic -lm && :

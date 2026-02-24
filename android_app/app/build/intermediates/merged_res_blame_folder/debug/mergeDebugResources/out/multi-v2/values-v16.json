@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "tun.proxy.app-mergeDebugResources-45:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/williamvermaak/.gradle/caches/9.1.0/transforms/c2b552c96eb6d0cf82ec3821f156f048/transformed/appcompat-1.7.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    }
+                }
+            ]
+        }
+    ]
+}

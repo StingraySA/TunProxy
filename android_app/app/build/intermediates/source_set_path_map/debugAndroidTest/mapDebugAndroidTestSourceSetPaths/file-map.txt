@@ -1,0 +1,6 @@
+tun.proxy.test.app-jetified-core-1.7.0-0 /Users/williamvermaak/.gradle/caches/8.13/transforms/09070399ca4e971df99a480c8bc0950e/transformed/jetified-core-1.7.0/res
+tun.proxy.test.app-androidTest-1 /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/generated/res/resValues/androidTest/debug
+tun.proxy.test.app-updated_navigation_xml-2 /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/generated/updated_navigation_xml/debugAndroidTest
+tun.proxy.test.app-mergeDebugAndroidTestResources-3 /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+tun.proxy.test.app-mergeDebugAndroidTestResources-4 /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+tun.proxy.test.app-debugAndroidTest-5 /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

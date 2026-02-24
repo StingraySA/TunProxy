@@ -1,4 +1,4 @@
-# Install script for directory: /Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/src/main/cpp
+# Install script for directory: /Users/williamvermaak/Documents/Github/TunProxy/android_app/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/.cxx/Debug/42393z4d/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/Debug/42393z4d/armeabi-v7a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

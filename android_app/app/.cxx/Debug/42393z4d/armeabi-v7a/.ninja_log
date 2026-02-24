@@ -1,13 +1,13 @@
 # ninja log v5
-3	209	1764770578213743259	CMakeFiles/tun2http.dir/tls.c.o	3b7c6ee7cb2faa69
-0	251	1764770578256886210	CMakeFiles/tun2http.dir/dhcp.c.o	81435d01264bfd49
-2	259	1764770578264982102	CMakeFiles/tun2http.dir/http.c.o	260ace0644e05f70
-1	260	1764770578264857351	CMakeFiles/tun2http.dir/dns.c.o	a5dea3a903078cab
-3	262	1764770578267326756	CMakeFiles/tun2http.dir/tun2http.c.o	9f3b9125880d1166
-4	263	1764770578268373311	CMakeFiles/tun2http.dir/util.c.o	288a62317d0c6858
-2	267	1764770578273674918	CMakeFiles/tun2http.dir/ip.c.o	4961b65c5b3f3002
-2	271	1764770578277424048	CMakeFiles/tun2http.dir/session.c.o	7b83160206460c34
-2	272	1764770578278802065	CMakeFiles/tun2http.dir/icmp.c.o	7efa66f5ce1c0b76
-4	279	1764770578286163365	CMakeFiles/tun2http.dir/udp.c.o	88132c1cd356f69f
-3	314	1764770578320349080	CMakeFiles/tun2http.dir/tcp.c.o	245f1494bce6108e
-314	396	1764770578402781602	/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/Debug/42393z4d/obj/armeabi-v7a/libtun2http.so	4ff193619b700c20
+1	55	1764850368963926479	CMakeFiles/tun2http.dir/tls.c.o	d0df6c4ae02a1165
+0	66	1764850368974687801	CMakeFiles/tun2http.dir/dhcp.c.o	267e50681d9405b3
+0	67	1764850368976008299	CMakeFiles/tun2http.dir/dns.c.o	b5fe0ffdfad211d9
+0	68	1764850368974766634	CMakeFiles/tun2http.dir/http.c.o	eb16323e65335376
+2	73	1764850368982745001	CMakeFiles/tun2http.dir/tun2http.c.o	3953929c198f3ff9
+0	74	1764850368982346835	CMakeFiles/tun2http.dir/icmp.c.o	84f0a010974a6a9a
+0	77	1764850368987318079	CMakeFiles/tun2http.dir/ip.c.o	285c43fb0cf908ad
+0	79	1764850368988893911	CMakeFiles/tun2http.dir/session.c.o	5dae612b36804d42
+2	83	1764850368993103698	CMakeFiles/tun2http.dir/udp.c.o	e963b670a84487fe
+3	83	1764850368993573114	CMakeFiles/tun2http.dir/util.c.o	830ed5bcfaaab1a4
+1	95	1764850369005078477	CMakeFiles/tun2http.dir/tcp.c.o	caaeeb7da49a7782
+95	143	1764850369053344843	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/Debug/42393z4d/obj/armeabi-v7a/libtun2http.so	d1240255465e7bde

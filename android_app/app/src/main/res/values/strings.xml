@@ -6,9 +6,15 @@
     <string name="notify_msg">Proxy is running</string>
     <string name="start">Start</string>
     <string name="stop">Stop</string>
+    <string name="download_burp_cert">Download Burp CA Cert</string>
     <string name="msg_start_failed">Start failed</string>
     <string name="host_hint">Proxy address (ipv4:port)</string>
     <string name="enter_host">Enter valid ip v4 address</string>
+    <string name="burp_cert_downloading">Downloading Burp certificate...</string>
+    <string name="burp_cert_download_failed">Unable to download Burp certificate</string>
+    <string name="burp_cert_download_complete">Burp certificate downloaded to Downloads.</string>
+    <string name="burp_cert_install_hint">Open Security and install it under CA certificates.</string>
+    <string name="burp_proxy_not_reachable">Proxy host/port is not reachable</string>
     <string name="status_disconnected">Disconnected!</string>
 
     <!-- Main menu -->

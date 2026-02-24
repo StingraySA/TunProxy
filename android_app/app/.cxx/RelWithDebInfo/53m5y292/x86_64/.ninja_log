@@ -1,13 +1,13 @@
 # ninja log v5
-1	56	1764771156257825558	CMakeFiles/tun2http.dir/tls.c.o	f9350da928af5c0
-0	62	1764771156264448054	CMakeFiles/tun2http.dir/dhcp.c.o	8f869db8b36ae053
-0	72	1764771156274319298	CMakeFiles/tun2http.dir/dns.c.o	1449f97d09dc3983
-1	74	1764771156275785691	CMakeFiles/tun2http.dir/http.c.o	da0b0e71ce1b5b22
-1	74	1764771156276219863	CMakeFiles/tun2http.dir/tun2http.c.o	cf7b2de1b5f47ab
-1	82	1764771156284239293	CMakeFiles/tun2http.dir/icmp.c.o	ceb294baff3b2261
-2	83	1764771156284840675	CMakeFiles/tun2http.dir/util.c.o	717a8ee00ccd13b0
-1	84	1764771156286042314	CMakeFiles/tun2http.dir/session.c.o	1db16bbf34d9dde3
-1	84	1764771156286729573	CMakeFiles/tun2http.dir/ip.c.o	eae0cc38d4acd
-1	91	1764771156293258693	CMakeFiles/tun2http.dir/udp.c.o	e28352422bbe027c
-1	141	1764771156342592745	CMakeFiles/tun2http.dir/tcp.c.o	d69c9ca4a695cb50
-141	186	1764771156387457910	/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/x86_64/libtun2http.so	ba4f47922467545a
+1	54	1764850405307005016	CMakeFiles/tun2http.dir/tls.c.o	dee16f3c6d448b33
+0	64	1764850405317084838	CMakeFiles/tun2http.dir/dhcp.c.o	c7754add9f9cf1cb
+1	72	1764850405325604454	CMakeFiles/tun2http.dir/http.c.o	ecbf3c0e91044176
+1	73	1764850405326764537	CMakeFiles/tun2http.dir/dns.c.o	3eaf09c5fcdf2e88
+1	75	1764850405329647575	CMakeFiles/tun2http.dir/tun2http.c.o	3c16e3aec3693f71
+1	81	1764850405335471819	CMakeFiles/tun2http.dir/icmp.c.o	ec74fc055bdb3a05
+2	83	1764850405337636983	CMakeFiles/tun2http.dir/util.c.o	1929c40fb1e53fc7
+1	84	1764850405338464774	CMakeFiles/tun2http.dir/session.c.o	32fb09c032634206
+1	88	1764850405341840604	CMakeFiles/tun2http.dir/ip.c.o	70daf77672bb9909
+1	89	1764850405343204311	CMakeFiles/tun2http.dir/udp.c.o	e975e05c98d19baf
+1	140	1764850405393094383	CMakeFiles/tun2http.dir/tcp.c.o	3ee97763b4abd213
+140	187	1764850405440796374	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/x86_64/libtun2http.so	3f02d81758828cf0

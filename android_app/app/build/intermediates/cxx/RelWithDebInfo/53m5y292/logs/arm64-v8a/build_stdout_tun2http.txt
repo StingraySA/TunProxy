@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/.cxx/RelWithDebInfo/53m5y292/arm64-v8a'
+ninja: no work to do.

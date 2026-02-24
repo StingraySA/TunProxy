@@ -1,13 +1,13 @@
 # ninja log v5
-1	53	1764771155678243162	CMakeFiles/tun2http.dir/tls.c.o	8bca1198c6e83f72
-0	60	1764771155686131423	CMakeFiles/tun2http.dir/dhcp.c.o	ac21dd07c30ca890
-0	69	1764771155695277158	CMakeFiles/tun2http.dir/dns.c.o	b01cc3c928d983f7
-0	70	1764771155696365338	CMakeFiles/tun2http.dir/http.c.o	9735d860ad6b7d69
-1	73	1764771155698880993	CMakeFiles/tun2http.dir/tun2http.c.o	7fdd43791d7a0bb2
-1	73	1764771155699923714	CMakeFiles/tun2http.dir/util.c.o	67d49fe8ae9a7792
-0	79	1764771155704893149	CMakeFiles/tun2http.dir/ip.c.o	d05cac3b77f354d1
-0	80	1764771155706253707	CMakeFiles/tun2http.dir/icmp.c.o	5a74eadf8c15a47c
-0	82	1764771155707952269	CMakeFiles/tun2http.dir/session.c.o	d456ef116662d175
-1	85	1764771155711212184	CMakeFiles/tun2http.dir/udp.c.o	804ca0df2ee38279
-0	130	1764771155755719553	CMakeFiles/tun2http.dir/tcp.c.o	34a2f34b00e94d69
-130	175	1764771155800663803	/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/armeabi-v7a/libtun2http.so	ee5c8313b1fb84df
+1	51	1764850404706708150	CMakeFiles/tun2http.dir/tls.c.o	ba339d724ed58ea1
+0	66	1764850404722541425	CMakeFiles/tun2http.dir/dhcp.c.o	d6b802d4e267a810
+0	68	1764850404724174215	CMakeFiles/tun2http.dir/http.c.o	b4d36433ab574be9
+0	70	1764850404727540087	CMakeFiles/tun2http.dir/dns.c.o	b1439e12b4b63699
+2	77	1764850404734719954	CMakeFiles/tun2http.dir/util.c.o	e167be5eada7fbb9
+1	80	1764850404736843994	CMakeFiles/tun2http.dir/tun2http.c.o	9b8c79af1f4ccc12
+0	83	1764850404740599948	CMakeFiles/tun2http.dir/ip.c.o	ec1c3475cebfed06
+0	85	1764850404742852904	CMakeFiles/tun2http.dir/session.c.o	f00ab025e9e7326e
+0	87	1764850404744819610	CMakeFiles/tun2http.dir/icmp.c.o	a2da64eddc0208ec
+1	93	1764850404750053313	CMakeFiles/tun2http.dir/udp.c.o	18f883c57bcc23ea
+1	139	1764850404795982056	CMakeFiles/tun2http.dir/tcp.c.o	1244b523b8e410e8
+139	185	1764850404842138382	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/armeabi-v7a/libtun2http.so	3d000bcf317e305a

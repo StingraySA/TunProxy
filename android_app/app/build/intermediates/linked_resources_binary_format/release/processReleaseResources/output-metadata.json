@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "LINKED_RESOURCES_BINARY_FORMAT",
+    "kind": "Directory"
+  },
+  "applicationId": "tun.proxy",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 100270,
+      "versionName": "1.2.8",
+      "outputFile": "linked-resources-binary-format-release.ap_"
+    }
+  ],
+  "elementType": "File"
+}

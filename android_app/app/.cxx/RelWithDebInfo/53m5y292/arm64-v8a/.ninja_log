@@ -1,13 +1,13 @@
 # ninja log v5
-1	86	1764771155310570942	CMakeFiles/tun2http.dir/tls.c.o	bf23188bc03747de
-0	87	1764771155311253367	CMakeFiles/tun2http.dir/dhcp.c.o	72df6c37675e71ee
-1	89	1764771155314222194	CMakeFiles/tun2http.dir/dns.c.o	a3dceeaafd84e462
-1	90	1764771155314062609	CMakeFiles/tun2http.dir/http.c.o	1f24023ece8fc727
-2	93	1764771155317567068	CMakeFiles/tun2http.dir/tun2http.c.o	5bc68292d82bade7
-1	99	1764771155324140981	CMakeFiles/tun2http.dir/icmp.c.o	169a23bccb11aebb
-1	100	1764771155324330275	CMakeFiles/tun2http.dir/ip.c.o	d8c54f043d77ef6c
-1	100	1764771155324613653	CMakeFiles/tun2http.dir/session.c.o	27ae9c302dea69ae
-3	100	1764771155324738446	CMakeFiles/tun2http.dir/util.c.o	a624942bce060b29
-2	107	1764771155332081910	CMakeFiles/tun2http.dir/udp.c.o	d095a8964dbe7d46
-1	156	1764771155380851205	CMakeFiles/tun2http.dir/tcp.c.o	5508d86c61a5b56c
-156	200	1764771155425316032	/Users/williamvermaak/Downloads/TunProxy_v1.2.8/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/arm64-v8a/libtun2http.so	ad45fb053799580f
+0	125	1764850404329685299	CMakeFiles/tun2http.dir/tls.c.o	ad4820bb2c79a8da
+0	125	1764850404329417758	CMakeFiles/tun2http.dir/dhcp.c.o	4aa257b2b6201862
+0	128	1764850404332087588	CMakeFiles/tun2http.dir/dns.c.o	c53db9f14b1aa421
+0	128	1764850404332912171	CMakeFiles/tun2http.dir/http.c.o	5a52acb37e533640
+1	130	1764850404335493834	CMakeFiles/tun2http.dir/tun2http.c.o	f2cf7ee218c75ca
+0	133	1764850404338104332	CMakeFiles/tun2http.dir/icmp.c.o	c306a4e0fd6f022a
+0	137	1764850404341462411	CMakeFiles/tun2http.dir/ip.c.o	a97dcbcf0a60a9da
+0	137	1764850404341499411	CMakeFiles/tun2http.dir/session.c.o	30e758c9e97c4302
+1	138	1764850404343052160	CMakeFiles/tun2http.dir/util.c.o	72601dd22b614713
+1	143	1764850404348132113	CMakeFiles/tun2http.dir/udp.c.o	a70e84851b84935e
+0	190	1764850404393810898	CMakeFiles/tun2http.dir/tcp.c.o	4c1d54538bedfcc1
+190	237	1764850404441434639	/Users/williamvermaak/Documents/Github/TunProxy/android_app/app/build/intermediates/cxx/RelWithDebInfo/53m5y292/obj/arm64-v8a/libtun2http.so	893f5660284089fe
