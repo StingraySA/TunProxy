@@ -16,6 +16,12 @@ When you start the TunProxy application, the following screen will be launched.
 
 * [Start] button
   * Start the VPN service.
+* [Download Burp CA Cert] button
+  * Downloads the Burp CA certificate from `http://<proxy-ip>:<proxy-port>/cert` to the device Downloads directory as `burp-ca-cert.cer`.
+  * The button is enabled only when the proxy address is valid (`ipv4:port`) and the proxy endpoint is reachable.
+  * Works whether VPN is started or stopped.
+  * After a successful download, TunProxy opens the certificate installation settings flow.
+  * A success/failure message is shown after the download attempt.
 * [Stop] button
   * Stop the VPN service.
 
@@ -68,6 +74,15 @@ The following are local proxy tools that can decrypt SSL.
   * https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 
 To decrypt SSL, install the local proxy tool Root certificate in the Android device user certificate.
+For most Android devices, the install flow is:
+`Settings` -> `More security & privacy` -> `Encryption and Credentials` -> `Install a certificate` -> `CA Certificate`.
+
+When using the Burp download button:
+* Set Burp proxy host/port in TunProxy.
+* Ensure Burp is reachable from the device.
+* Tap **Download Burp CA Cert**.
+* Install `burp-ca-cert.cer` from the Downloads directory when prompted.
+
 However, in Android 7.0 and later, the application no longer trusts user certificates by default.
 
 * https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html
